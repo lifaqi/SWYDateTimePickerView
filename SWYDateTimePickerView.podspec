@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SWYDateTimePickerView'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'SWYDateTimePickerView日期选择器'
 
 # This description is used to generate tags and improve search results.
@@ -36,6 +36,7 @@ TODO: SWYDateTimePickerView日期选择器，可以根据枚举选择多种类�
   #   'SWYDateTimePickerView' => ['SWYDateTimePickerView/Assets/*.png']
   # }
 
+    s.dependency 'SWYToolKit', '~> 0.1.0'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
